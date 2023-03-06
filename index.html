@@ -413,26 +413,25 @@ Retirement Home</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="action_page.php">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
+								<form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+								<label for="Name" class="fcf-label">Your name</label>
+								    <div class="fcf-input-group">
+									<input type="text" id="Name" name="Name" class="fcf-form-control" required>
+								    </div>
+								<div class="fcf-form-group">
+								    <label for="Email" class="fcf-label">Your email address</label>
+								    <div class="fcf-input-group">
+									<input type="email" id="Email" name="Email" class="fcf-form-control" required>
+								    </div>
+								<div class="fcf-form-group">
+								    <label for="Message" class="fcf-label">Your message</label>
+								    <div class="fcf-input-group">
+									<textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+								    </div>
+								</div>
+								<div class="fcf-form-group">
+								    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+								</div>
 								<ul class="icons">
 									<li><a href="https://twitter.com/HugoRSeguin" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="https://www.facebook.com/hugo.seguin.94/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
