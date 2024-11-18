@@ -55,6 +55,21 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+.personal-info {
+    text-align: center; /* Centers the text and inline elements like <a> */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content horizontally */
+    justify-content: center; /* Centers the content vertically if the section has a defined height */
+}
+
+.profile-img {
+    max-width: 100%; /* Ensures the image does not overflow */
+    height: auto;
+    margin-bottom: 10px; /* Adds space below the image */
+}
+
+
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -1140,9 +1155,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
