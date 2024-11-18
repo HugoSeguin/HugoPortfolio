@@ -41,6 +41,14 @@ blockquote, q {
 	quotes: none;
 }
 
+.profile-img {
+    width: 150px; /* You can set a specific size or use a percentage for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 10px; /* Adds space between the image and text */
+}
+
+
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
