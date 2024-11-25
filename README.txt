@@ -1,7 +1,7 @@
 
 
 
-https://hugoseguin.github.io/HugoPortfolio/#work
+https://hugoseguin.github.io/HugoPortfolio/#
 
 
 
