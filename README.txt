@@ -9,7 +9,7 @@
 	     😊 Thanks for stopping by, and happy browsing! 🚀
 									
 
-		   [Click here to see my portfolio](https://hugoseguin.github.io/HugoPortfolio/#)
+		   https://hugoseguin.github.io/HugoPortfolio/#
 
 
 
