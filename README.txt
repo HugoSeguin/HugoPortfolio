@@ -1,4 +1,12 @@
+🌟 **Hey everyone!** 🌟  
 
+✨ Welcome to my portfolio! ✨  
+
+🎨 I truly appreciate you taking the time to check out my work. 🙏  
+
+💖 I hope you enjoy exploring, and I’d love to hear your thoughts! 📝  
+
+😊 Thanks for stopping by, and happy browsing! 🚀
 
 
 https://hugoseguin.github.io/HugoPortfolio/#
