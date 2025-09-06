@@ -1,40 +1,30 @@
+
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['Email'])) {
 
-    // EDIT THESE LINES:
-    $email_to = "hseguin@iastate.edu";
+    $email_to = "hugoseguin111@gmail.com";
     $email_subject = "New form submission";
 
-    // Handle errors
-    function problem($error)
-    {
+    function problem($error) {
         echo "<p style='color:red; font-weight:bold;'>We're sorry, but there were error(s) with the form:</p>";
         echo "<p>$error</p>";
         echo "<p><a href='javascript:history.back()'>Go Back</a></p>";
         exit;
     }
 
-    // Required fields
-    if (
-        empty($_POST['Name']) ||
-        empty($_POST['Email']) ||
-        empty($_POST['Message'])
-    ) {
+    if (empty($_POST['Name']) || empty($_POST['Email']) || empty($_POST['Message'])) {
         problem("All fields are required.");
     }
 
     $name = trim($_POST['Name']);
     $email = trim($_POST['Email']);
     $message = trim($_POST['Message']);
-
     $error_message = "";
 
-    // Validate email (more modern regex)
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $error_message .= "The email address you entered is invalid.<br>";
     }
 
-    // Validate name (letters, spaces, hyphen, apostrophe)
     if (!preg_match("/^[A-Za-zÀ-ÿ .'-]+$/u", $name)) {
         $error_message .= "The name you entered is invalid.<br>";
     }
@@ -47,9 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['Email'])) {
         problem($error_message);
     }
 
-    // Sanitize input for email
-    function clean_string($string)
-    {
+    function clean_string($string) {
         $bad = array("content-type", "bcc:", "to:", "cc:", "href");
         return str_ireplace($bad, "", $string);
     }
@@ -59,7 +47,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['Email'])) {
     $email_message .= "Email: " . clean_string($email) . "\n";
     $email_message .= "Message:\n" . clean_string($message) . "\n";
 
-    // Headers
     $headers = "From: " . $email . "\r\n";
     $headers .= "Reply-To: " . $email . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion();
