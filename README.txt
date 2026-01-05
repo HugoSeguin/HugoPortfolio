@@ -3,7 +3,7 @@
 Welcome to my professional portfolio! I'm a Data & Cloud Engineer with a passion for building scalable data solutions and leveraging machine learning to solve real-world problems.
 
 ## 🔗 Live Portfolio
-**[Visit My Portfolio →](https://hugoseguin.github.io/HugoPortfolio/)**
+**[Visit My Portfolio →](https://hugoseguin.github.io/HugoPortfolio/#)**
 
 ---
 
@@ -198,3 +198,4 @@ Thank you for taking the time to explore my portfolio! I truly appreciate your i
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://hugoseguin.github.io/HugoPortfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-HugoSeguin-blue)](https://github.com/HugoSeguin)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](https://www.linkedin.com/in/hugoseguin/)
+
