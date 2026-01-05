@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="assets/css/myspace-theme.css" />
+    <link rel="stylesheet" href="assets/css/myspace-theme.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
@@ -43,16 +43,16 @@
                 <img src="images/profile.jpg" alt="Profile picture of Hugo Seguin" class="profile-img" />
             </span>
             <p>
-                Hey there! I’m Hugo Seguin, your friendly neighborhood Associate Cloud and Data Science Engineer at <strong>Realm of Caring</strong> 🏙️. With a Master’s degree in Social Psychology 🧠, I’m all about merging the worlds of data science and human behavior.
+                Hey there! I'm Hugo Seguin, your friendly neighborhood Associate Cloud and Data Science Engineer at <strong>Realm of Caring</strong> 🏙️. With a Master's degree in Social Psychology 🧠, I'm all about merging the worlds of data science and human behavior.
             </p>
             <p>
                 My main focus? Building fast processing pipelines ⚡, analyzing data at lightning speeds 💻, and of course, playing video games 🎮. I love combining my coding skills with my background in psychology to create powerful, data-driven insights.
             </p>
             <p>
-                I’m passionate about using data science methods to enhance psychological research, especially when it comes to improving the strength, validity, and reliability of data 📊. I’m all in for using big data to bring faster insights to the world of psychology! 🚀
+                I'm passionate about using data science methods to enhance psychological research, especially when it comes to improving the strength, validity, and reliability of data 📊. I'm all in for using big data to bring faster insights to the world of psychology! 🚀
             </p>
             <p>
-                It’s the kind of work that keeps me up at night (in a good way, of course! 😴). If you're looking for a <strong>Data Engineer</strong> or <strong>Data Scientist</strong>, I’m your guy! 💼 Or if you're just as passionate about psychology and big data methods as I am, let’s nerd out together! Hit me up on LinkedIn! 📩
+                It's the kind of work that keeps me up at night (in a good way, of course! 😴). If you're looking for a <strong>Data Engineer</strong> or <strong>Data Scientist</strong>, I'm your guy! 💼 Or if you're just as passionate about psychology and big data methods as I am, let's nerd out together! Hit me up on LinkedIn! 📩
             </p>
 
             <p>
@@ -93,21 +93,19 @@
                     <ul id="skills-list"></ul>
                 </section>
 
+                <!-- Work Experience Section -->
+                <section class="work-experience">
+                    <h3>Work Experience:</h3>
 
-				<!-- Work Experience Section -->
-				<section class="work-experience">
-				<h3>Work Experience:</h3>
+                    <!-- Buttons to switch resumes -->
+                    <div id="resume-buttons">
+                        <button data-resume="full">Full Resume</button>
+                        <button data-resume="technical">Technical Resume</button>
+                    </div>
 
-				<!-- Buttons to switch resumes -->
-				<div id="resume-buttons">
-					<button data-resume="full">Full Resume</button>
-					<button data-resume="technical">Technical Resume</button>
-				</div>
-
-				<!-- Container where experiences will render -->
-				<div id="experience-container"></div>
-				<script src="assets/js/jobs-list.js"></script>
-				</section>
+                    <!-- Container where experiences will render -->
+                    <div id="experience-container"></div>
+                </section>
 
                 <!-- Certificates -->
                 <section class="certificates">
@@ -142,9 +140,59 @@
             </footer>
         </article>
 
+        <!-- CHI-IRL -->
+        <article id="ChiIRL">
+            <h2 class="major">CHI-IRL</h2>
+            <span class="image main">
+                <img src="images/profile.jpg" alt="Chicago Tech Community" />
+            </span>
+            <p>
+                <strong>Chicago In Real Life (CHI-IRL)</strong> is a community-driven initiative dedicated to connecting Chicago's vibrant tech ecosystem. Our mission is to bring together engineers, developers, data scientists, and tech enthusiasts for meaningful in-person interactions.
+            </p>
+            
+            <h3>What We Do</h3>
+            <p>
+                We organize and promote tech events, workshops, and networking opportunities across Chicago. From Python meetups to data science workshops, we're building bridges between professionals and fostering collaboration in the Windy City's tech scene.
+            </p>
+            
+            <h3>Get Involved</h3>
+            <p>
+                Whether you're a seasoned professional or just starting your tech journey, CHI-IRL welcomes you! Join us to:
+            </p>
+            <ul>
+                <li>🤝 Network with local tech professionals</li>
+                <li>📚 Learn from community-led workshops</li>
+                <li>💼 Discover career opportunities</li>
+                <li>🎯 Collaborate on open-source projects</li>
+                <li>🌟 Share your knowledge and expertise</li>
+            </ul>
+            
+            <h3>Our Communities</h3>
+            <p>
+                We support and collaborate with various Chicago tech groups including ChiPy (Chicago Python User Group), data science meetups, and engineering collectives. Together, we're creating a stronger, more connected tech community in Chicago.
+            </p>
+            
+            <h3>Featured Projects</h3>
+            <p>
+                Our work includes building resources for the community, organizing events, and creating tools that help Chicago's tech professionals connect and grow together.
+            </p>
+            
+            <ul class="actions">
+                <li><a href="https://github.com/HugoSeguin/CHI-IRL" class="button primary" target="_blank">View CHI-IRL on GitHub</a></li>
+                <li><a href="https://github.com/HugoSeguin/chicago-engineering-and-tech-communities" class="button" target="_blank">Tech Communities Resource</a></li>
+            </ul>
+        </article>
+
         <!-- Contact -->
         <article id="contact">
-            <h2 class="major">Contact Me (Under Development), finding a server</h2>
+            <h2 class="major">Contact Me (Under Development)</h2>
+            <p>Finding a server for the contact form. In the meantime, feel free to reach out via:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:hugoseguin111@gmail.com">hugoseguin111@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hugoseguin/" target="_blank">Connect with me</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/HugoSeguin" target="_blank">@HugoSeguin</a></li>
+            </ul>
+            
             <form action="contact.php" method="POST" id="contact-form">
                 <label for="Name">Name:</label><br>
                 <input type="text" id="Name" name="Name" required><br><br>
@@ -169,7 +217,7 @@
             <li><a href="https://www.linkedin.com/in/hugoseguin/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
             <li><a href="https://leetcode.com/u/KElE7F8u33/" class="icon brands fa-leanpub"><span class="label">LeetCode</span></a></li>
         </ul>
-        <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <p class="copyright">&copy; Hugo Seguin 2024-2026. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
     </footer>
 
 </div>
@@ -185,7 +233,7 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/skills.js"></script>
 <script src="assets/js/projects.js"></script>
+<script src="assets/js/jobs-list.js"></script>
 
 </body>
 </html>
-
